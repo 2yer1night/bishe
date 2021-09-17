@@ -1,0 +1,75 @@
+% !Mode:: "TeX:UTF-8"
+
+\hitsetup{
+  %******************************
+  % 注意：
+  %   1. 配置里面不要出现空行
+  %   2. 不需要的配置信息可以删除
+  %******************************
+  %
+  %=====
+  % 秘级
+  %=====
+  statesecrets={公开},
+  natclassifiedindex={TM301.2},
+  intclassifiedindex={62-5},
+  %
+  %=========
+  % 中文信息
+  %=========
+  ctitleone={基于卫星图像序列的},%本科生封面使用
+  ctitletwo={初生对流检测算法研究},%本科生封面使用
+  ctitlecover={基于卫星图像序列的初生对流检测算法研究},%放在封面中使用，自由断行
+  ctitle={基于卫星图像序列的初生对流检测算法研究},%放在原创性声明中使用
+  %csubtitle={一条副标题}, %一般情况没有，可以注释掉
+  cxueke={工学},
+  csubject={计算机技术},
+  caffil={计算机科学与技术学院},
+  cauthor={韩佳成},
+  csupervisor={徐晓飞教授},
+  %cassosupervisor={某某某教授}, % 副指导老师
+ % ccosupervisor={某某某教授}, % 联合指导老师
+  % 日期自动使用当前时间，若需指定按如下方式修改：
+  cdate={2021年12月},
+  cstudentid={19S151081},
+  cstudenttype={同等学力人员}, %非全日制教育申请学位者
+  cnumber={no9527}, %编号
+  cpositionname={哈铁西站}, %博士后站名称
+  cstartdate={3050年12月10日}, %到站日期
+  cenddate={3090年12月10日}, %出站日期
+  %（同等学力人员）、（工程硕士）、（工商管理硕士）、
+  %（高级管理人员工商管理硕士）、（公共管理硕士）、（中职教师）、（高校教师）等
+  %
+  %
+  %=========
+  % 英文信息
+  %=========
+  etitle={Research on Primary convection detection algorithm based on satellite image sequence},
+  esubtitle={This is the sub title},
+  exueke={Engineering},
+  esubject={Computer Technology},
+  eaffil={\emultiline[t]{School of Mechatronics Engineering \\ Mechatronics Engineering}},
+  eauthor={Han Jiacheng},
+  esupervisor={Professor Xu Xiaofei},
+  eassosupervisor={Associate Professor Li Xutao},
+  % 日期自动生成，若需指定按如下方式修改：
+  edate={December, 2022},
+  estudenttype={Master of Art},
+  %
+  % 关键词用“英文逗号”分割
+  ckeywords={卫星图像, 深度学习, 天气预报},
+  ekeywords={Satellite Image,Deep Learning, Weather Forecast},
+}
+
+\begin{cabstract}
+
+预防强对流天气是天气预报的重要课题，也关乎人民人身财产安全。对于预防强对流天气，通常采用的方法是采取精度更高的预报措施，对于已经形成了的对流进行跟踪预测，对于还在形成的对流云进行判别分析。早期的强对流天气预警主要是基于雷达资料，初生对流的定义是在强对流天气发生之前，大气各种物理量处于某种特殊的状态，多普勒天气雷达第一次观测到对流云产生的反射率因子大于等于35dBZ\cite{Mecikalski2006Forecasting}。雷达图像的生成主要依靠雷达回波产生，这就导致只有具有雷达观测站的区域才有能够采集的雷达数据。单纯依靠雷达数据做对流研究预警存在两个问题，一是雷达站的回波区域并不能做到对于全国的全覆盖，因此对于全局对流的形成和移动不能做到最为合理和及时的判断；二是雷达数据本身的局限性，导致其信息不足以对初生对流进行合理判断。
+
+因此我们可以利用卫星云图对对流云进行进一步预测分析。卫星云图具有长时效性，范围广等特点。强对流天气是以大尺度天气系统为背景，大尺度天气系统影响或决定着中小尺度天气系统的生成、发展和移动过程。利用卫星云图可以有效监控大尺度天气系统，从而对初生对流进行有效预测。
+\end{cabstract}
+
+\begin{eabstract}
+The prevention of severe convective weather is an important topic of weather forecast, and also related to the safety of people's lives and property. For the prevention of severe convective weather, the usual method is to take more accurate forecasting measures, to track and predict the formed convection, and to discriminate and analyze the convective clouds that are still forming. The early warning of severe convective weather is mainly based on radar data. The definition of primary convection is that before the occurrence of severe convective weather, various physical quantities of the atmosphere are in a special state, and the reflectivity factor produced by convective clouds observed by Doppler Weather Radar for the first time is greater than or equal to 35dbz \cite{Mecikalski2006Forecasting}. The generation of radar image mainly depends on radar echo, which results in radar data acquisition only in the area with radar observation station. There are two problems in the research and early warning of convection based on radar data. One is that the echo area of radar station can not cover the whole country, so the formation and movement of global convection can not be judged reasonably and timely; the other is that the information of radar data itself is limited, which makes it impossible to judge the primary convection reasonably.
+
+Therefore, we can make further prediction and analysis of convective clouds by using satellite cloud images. Satellite cloud image has the characteristics of long time effect and wide range. The strong convective weather is based on the large-scale weather system, which influences or determines the generation, development and movement of the mesoscale weather system. The satellite cloud images can be used to monitor the large-scale weather system effectively, so as to predict the primary convection effectively.
+\end{eabstract}
