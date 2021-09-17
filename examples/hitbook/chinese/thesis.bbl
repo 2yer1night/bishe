@@ -1,0 +1,48 @@
+\begin{thebibliography}{1}
+\providecommand{\bibauthor}[1]{#1}
+\providecommand{\bibeditor}[1]{#1}
+\providecommand{\bibtranslator}[1]{#1}
+\providecommand{\bibtitle}[1]{#1}
+\providecommand{\bibbooktitle}[1]{#1}
+\providecommand{\bibjournal}[1]{#1}
+\providecommand{\bibmark}[1]{\mbox{#1}}
+\providecommand{\bibcountry}[1]{#1}
+\providecommand{\bibpatentid}[1]{#1}
+\providecommand{\bibedition}[1]{#1}
+\providecommand{\biborganization}[1]{#1}
+\providecommand{\bibaddress}[1]{#1}
+\providecommand{\bibpublisher}[1]{#1}
+\providecommand{\bibinstitution}[1]{#1}
+\providecommand{\bibschool}[1]{#1}
+\providecommand{\bibvolume}[1]{#1}
+\providecommand{\bibnumber}[1]{#1}
+\providecommand{\bibversion}[1]{#1}
+\providecommand{\bibpages}[1]{#1}
+\providecommand{\bibmodifydate}[1]{#1}
+\providecommand{\bibcitedate}[1]{#1}
+\providecommand{\bibyear}[1]{#1}
+\providecommand{\bibdate}[1]{#1}
+\providecommand{\biburl}[1]{\newline\url{#1}}
+
+\bibitem{Mecikalski2006Forecasting}
+\bibauthor{Mecikalski J~R\@, Bedka K~M}\@. \bibtitle{Forecasting Convective
+  Initiation by Monitoring the Evolution of Moving Cumulus in Daytime GOES
+  Imagery}\bibmark{[J]}\@. \bibjournal{Monthly Weather Review}\@,
+  \bibyear{2006}\@, \bibvolume{134}\bibnumber{(1)}\thinspace{}\textnormal{:
+  }\bibpages{49\textnormal{-}78}\@.
+
+\bibitem{覃丹宇2014利用静止气象卫星监测初生对流的研究进展}
+\bibauthor{覃丹宇\@, 方宗义}\@.
+  \bibtitle{利用静止气象卫星监测初生对流的研究进展}\bibmark{[J]}\@.
+  \bibjournal{气象}\@, \bibyear{2014}\bibnumber{(1)}\thinspace{}\textnormal{:
+  }\bibpages{9\textnormal{-}19}\@.
+
+\bibitem{张春桂2017基于卫星和雷达资料的对流云团识别跟踪}
+\bibauthor{张春桂\@, 周乐照\@, 林炳青}\@.
+  \bibtitle{基于卫星和雷达资料的对流云团识别跟踪%Identification
+  and Tracking of Convective Cloud Clusters Based on Satellite and Radar
+  Data}\bibmark{[J]}\@. \bibjournal{气象科技}\@, \bibyear{2017}\@,
+  \bibvolume{045}\bibnumber{(3)}\thinspace{}\textnormal{:
+  }\bibpages{485\textnormal{-}491}\@.
+
+\end{thebibliography}
